@@ -41,6 +41,12 @@ MIDDLEWARE = [
 ]
 
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://mysite-pz8f.onrender.com",
+    "https://mysite-1-5jw3.onrender.com",
+]
+
+
 STORAGES = {
     "staticfiles": {
         "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
